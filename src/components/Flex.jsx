@@ -1,9 +1,9 @@
 import React from 'react'
 import { Children } from 'react'
 
-const Flex = () => {
+const Flex = ({className}) => {
   return (
-    <div>{Children}</div>
+    <div className={`flex ${className}`}>{Children}</div>
   )
 }
 
