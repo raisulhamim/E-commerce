@@ -1,8 +1,15 @@
 import React from 'react'
+import News from '../layouts/News'
+import Navbar from '../layouts/Navbar'
+
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <News/>
+      <Navbar/>
+
+    </div>
   )
 }
 
