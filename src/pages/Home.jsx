@@ -1,6 +1,7 @@
 import React from 'react'
 import News from '../layouts/News'
 import Navbar from '../layouts/Navbar'
+import Footar from '../layouts/Footar'
 
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
     <div>
       <News/>
       <Navbar/>
+      <Footar/>
 
     </div>
   )
