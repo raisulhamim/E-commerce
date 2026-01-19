@@ -1,17 +1,31 @@
 import React from 'react'
-import News from '../layouts/News'
-import Navbar from '../layouts/Navbar'
-import Footar from '../layouts/Footar'
+import Banner from '../layouts/Banner'
+import Button from '../components/Button'
+import Heading from '../components/Heading'
+import SubHeading from '../components/SubHeading'
+import Today from '../layouts/Today'
+import Category from '../layouts/Category'
+import BestProduct from '../layouts/BestProduct'
+import Promotion from '../layouts/Promotion'
+import ExploreProduct from '../layouts/ExploreProduct'
+import NewArrival from '../layouts/NewArrival'
+
+
 
 
 const Home = () => {
   return (
-    <div>
-      <News/>
-      <Navbar/>
-      <Footar/>
-
-    </div>
+    <>
+    <Banner/>
+    <Today/>
+    <Category/>
+    <BestProduct/>
+    <Promotion/>
+    <ExploreProduct/>
+    <NewArrival/>
+    
+    
+    </>
   )
 }
 
