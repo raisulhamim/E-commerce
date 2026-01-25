@@ -11,6 +11,7 @@ import Products from './pages/Products';
 import Login from './pages/Login';
 import RootLayout from './components/RootLayout';
 import Signup from './pages/Signup';
+import Productdetails from './pages/Productdetails';
 
 
 const router = createBrowserRouter(
@@ -21,6 +22,7 @@ const router = createBrowserRouter(
        <Route path="/products" element={<Products />} ></Route>
        <Route path="/login" element={<Login />} ></Route>
        <Route path="/signup" element={<Signup />} ></Route>
+       <Route path="/Productdetails" element={<Productdetails />} ></Route>
     
     </Route>
     

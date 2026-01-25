@@ -10,7 +10,7 @@ import { HiOutlineComputerDesktop } from 'react-icons/hi2'
 import { IoWatchOutline } from "react-icons/io5";
 import { IoCameraOutline } from "react-icons/io5";
 import { MdOutlineHeadphones } from "react-icons/md";
-import { MdOutlineHeadphones } from "react-icons/md";
+
 import { MdOutlineVideogameAsset } from "react-icons/md";
 
 
